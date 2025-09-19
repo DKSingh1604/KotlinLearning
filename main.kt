@@ -8,7 +8,6 @@ fun main() {
     val minByteValue: Byte = Byte.MIN_VALUE
     val maxShortValue: Short = Short.MAX_VALUE;
     val minShortValue: Short = Short.MIN_VALUE;
-    // val myNumber = 28l
     val yourNumber = 28L
 
 
