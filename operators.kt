@@ -28,24 +28,41 @@ fun main (){
 
 
 
-    //CONDITIONAL STATEMENTS
+    //------------------------------------------CONDITIONAL STATEMENTS
 
-    val isActive = true;
+    // val isActive = true;
 
-    if(isActive == true){
-        println("The user is Active!")
-    }
-    else{
-        println("The user is not active!")
-    }
+    // if(isActive == true){
+    //     println("The user is Active!")
+    // }
+    // else{
+    //     println("The user is not active!")
+    // }
 
     //WHEN STATEMENTS
 
-    val alarm = 5;
+    // val alarm = 8
 
-    when(alarm) {
-        12 -> println("This is the time!")
-    }
+    // val text = when {
+    //     (alarm <= 10) -> "This is the time!"
+    //     (alarm > 10 && alarm < 20) -> "Not yet"
+    //     else -> "The time is $alarm"
+    // }
+
+    // println(text)
+
+
+    // NULL VALUES MANAGEMENT
+
+    var text: String? = null
+    // println(text!!.length) 
+    println(text?.length) 
+    //!! - to get the exception if value is null
+    //? -> to handle it by getting null as output if the value is null
+
+    text = null
+    val text2: String = text ?: "The variable is null." //if text is null assign the string after ?:
+    println(text2)
 
 
 
